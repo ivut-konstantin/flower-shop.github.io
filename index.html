@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ШАПКА САЙТА -->
+    <header id="header" class="stiky-top" data-aos="zoom-in" data-aos-duration="700">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a href="#header" class="navbar-brand">Мир Цветов</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent"
+                    aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navContent">
+                    <ul class="navbar-nav mr-auto mb-3 mb-lg-0">
+                        <li class="nav-item navbar-text">
+                            <a href="#header" class="nav-link">Главная</a>
+                        </li>
+                        <li class="nav-item navbar-text">
+                            <a href="#products-dash" class="nav-link">Товары</a>
+                        </li>
+                        <li class="nav-item navbar-text">
+                            <a href="#delivery-dash" class="nav-link">Доставка</a>
+                        </li>
+                        <li class="nav-item navbar-text">
+                            <a href="#about-us-dash" class="nav-link">О нас</a>
+                        </li>
+                        <li class="nav-item navbar-text">
+                            <a href="#contacts-dash" class="nav-link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row d-flex justify-content-end">
+                    <div class="col">+7(999)-99-99</div>
+                    <div class="col">+7(999)-99-99</div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="dash-1" data-aos="zoom-in" data-aos-duration="700">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КАРУСЕЛЬ -->
+    <section id="Carousel" data-aos="zoom-in" data-aos-duration="700">
+        <div class="container">
+            <div class="carousel slide carousel-fade" id="carouselFade" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselFade" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselFade" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselFade" data-bs-slide-to="2"></li>
+                  </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="photos/5.jpg" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Скидка 10%</h1>
+                            <p>Скидка 10% на все товары после первой покупки</p>
+                          </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="photos/6.jpg" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Бесплатная доставка</h1>
+                            <p>Доставка любого товара по Москве в пределах МКАД - бесплатно</p>
+                          </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="photos/7.jpg" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Скидка за самовывоз</h1>
+                            <p>Скидка на все товары при самовывозе - 300 руб.</p>
+                          </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" role="button" href="#carouselFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" role="button" href="#carouselFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+
+        <!-- ПРОДУКТЫ -->
+        <section id="products-dash">
+            <div class="container mb-3">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div id="dash-2" data-aos="zoom-in" data-aos-duration="700">
+                            <h3>Товары</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="products">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-around animate-fade-right" data-aos="fade-right"
+                        data-aos-duration="700">
+                        <button class="btn btn-light icon-box" data-bs-toggle="modal" data-bs-target="#bouquets">
+                            <div class="card" style="width: 20rem;">
+                                <img src="photos/4.jpg" class="card-img" alt="... ">
+                                <div class="card-img-overlay">
+                                    <p class="card-text">Букеты</p>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col d-flex justify-content-around animate-fade-left" data-aos="fade-left"
+                        data-aos-duration="700">
+                        <button class="btn btn-light icon-box" data-bs-toggle="modal" data-bs-target="#piece">
+                            <div class="card" style="width: 20rem;">
+                                <img src="photos/4.2.jpg" class="card-img" alt="... ">
+                                <div class="card-img-overlay">
+                                    <p class="card-text">Поштучно</p>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center animate-fade-right" data-aos="fade-right"
+                        data-aos-duration="700">
+                        <button class="btn btn-light icon-box" data-bs-toggle="modal" data-bs-target="#gift">
+                            <div class="card" style="width: 20rem;">
+                                <img src="photos/4.3.jpg" class="card-img" alt="... ">
+                                <div class="card-img-overlay">
+                                    <p class="card-text">Подарочные</p>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col d-flex justify-content-center animate-fade-left" data-aos="fade-left"
+                        data-aos-duration="700">
+                        <button class="btn btn-light icon-box" data-bs-toggle="modal" data-bs-target="#marriage">
+                            <div class="card" style="width: 20rem;">
+                                <img src="photos/4.4.jpg" class="card-img" alt="... ">
+                                <div class="card-img-overlay">
+                                    <p class="card-text">Свадебные</p>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Доставка -->
+        <section id="delivery-dash">
+            <div class="container mb-3">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div id="dash-2" data-aos="zoom-in" data-aos-duration="700">
+                            <h3>Доставка</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="delivery">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3 d-flex justify-content-center">
+                        <div data-aos="zoom-in" data-aos-duration="1000" class="content">
+                            <img class="mb-3" src="photos/world.png" alt="">
+                            <h3>Поставки цветов со всего мира</h3>
+                            <p>Привозим цветы из Эквадора, Кении, Голландии, Чили, Колумбии, Израиля, Новой Зеландии и
+                                со всей Европы. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 d-flex justify-content-center">
+                        <div data-aos="zoom-in" data-aos-duration="1000" class="content">
+                            <img class="mb-3" src="photos/delivery.png" alt="">
+                            <h3>Экспресс доставка по Москве и области</h3>
+                            <p>Доставляем цветы как можно быстрее с помощью сервиса Яндекс Такси</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 d-flex justify-content-center">
+                        <div data-aos="zoom-in" data-aos-duration="1000" class="content">
+                            <img class="mb-3" src="photos/shop.png" alt="">
+                            <h3>20 магазинов в Москве и Мос. области</h3>
+                            <p>Удобный самовывоз из магазинов нашей сети или с оптового склада</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- О нас -->
+        <section id="about-us-dash">
+            <div class="container mb-3">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div id="dash-2" data-aos="zoom-in" data-aos-duration="700">
+                            <h3>О нас</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about-us" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            Вот уже 14 лет Мы дарим ароматно-букетное счастье, любуемся сиянием очарованных глаз наших
+                            клиентов и помогаем воплощать в жизнь самые смелые, самые светлые и многообещающие мечты в
+                            реальность.
+
+                            Мы стремительно развивающаяся компания. У нас 19 розничных магазинов в Москве и Подмосковье,
+                            работает Интернет-магазин, занимаемся крупными и мелкими оптовыми продажами, проводим
+                            мастер-классы, оформляем мероприятия и праздники, доставляем подарки и различные аксессуары.
+                            Наша команда состоит из молодых и ярких сотрудников, которые никогда не оставят Вас без
+                            внимания, мы всегда поможем и проконсультируем Вас по любому интересующему вопросы.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Модальное окно(букеты)-->
+    <div class="modal fade" id="bouquets" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Букеты</h5>
+                    <button class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/9MO.png" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Малиновые архидеи</h5>
+                                            <p class="card-text">9 малиновых архидей Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">4499 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/19ZT.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Желтые тюльпаны</h5>
+                                            <p class="card-text">19 желтых тюльпанов Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">5999 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/BSG.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Синие гортензии</h5>
+                                            <p class="card-text">Букет синих гортензий Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">7299 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/13P.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Подсолнухи</h5>
+                                            <p class="card-text">13 подсолнухов Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">3499 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/9KP.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Красные пионы</h5>
+                                            <p class="card-text">9 красных пионов Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">9999 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Модальное окно(поштучно)-->
+    <div class="modal fade" id="piece" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Поштучно</h5>
+                    <button class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/RG.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Роза Голландская</h5>
+                                            <p class="card-text">Роза Голландская Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">299 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/KO.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Хризантема Одноговая</h5>
+                                            <p class="card-text">Хризантема Одноговая Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">199 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/A.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Альстромерия</h5>
+                                            <p class="card-text">Альстромерия Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">249 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/P.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Пион</h5>
+                                            <p class="card-text">Пион Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">299 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/G.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Гвоздика</h5>
+                                            <p class="card-text">Гвоздика Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">149 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Модальное окно(подарочные)-->
+    <div class="modal fade" id="gift" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Подарочные</h5>
+                    <button class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/NO.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Набор "Оттепель"</h5>
+                                            <p class="card-text">Набор "Оттепель" Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">5499 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/NK.png" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Набор "Карибы"</h5>
+                                            <p class="card-text">Набор "Карибы" Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">4999 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/TK.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Набор "Танец красок"</h5>
+                                            <p class="card-text">Набор "Танец красок" Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">6499 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/VVS.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Набор "Вечер в Соренто"</h5>
+                                            <p class="card-text">Набор "Вечер в Соренто" Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">8499 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/SI.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Набор "Синий иней"</h5>
+                                            <p class="card-text">Набор "Синий иней" Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">3999 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Модальное окно(свадебные)-->
+    <div class="modal fade" id="marriage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Свадебные</h5>
+                    <button class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/Am.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">"Амарилис"</h5>
+                                            <p class="card-text">"Амарилис" Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">6999 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/B.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">"Безмятежность"</h5>
+                                            <p class="card-text">"Безмятежность" Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">9999 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/I.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">"Ирисы"</h5>
+                                            <p class="card-text">"Ирисы" Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">7299 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/BS.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">"Белый свет"</h5>
+                                            <p class="card-text">"Белый свет" Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">6799 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-4">
+                                        <img src="photos/LA.jpg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">"Лимонный аромат"</h5>
+                                            <p class="card-text">"Лимонный аромат" Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Accusamus ipsam maiores rem officia, natus
+                                                necessitatibus.</p>
+                                            <p class="card-text-price mt-4">4599 р.</p>
+                                            <button class="btn btn-secondary">Купить</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <section id="contacts-dash">
+            <div class="container mb-3">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div id="dash-2" data-aos="zoom-in" data-aos-duration="700">
+                            <h3>
+                                <h2>Контактная информация</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="container mb-3">
+                <div class="row">
+                    <div class="col-6">
+                        <div style="width: 100%"><iframe scrolling="no" marginheight="0" marginwidth="0"
+                                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0+(%D0%9C%D0%B8%D1%80%20%D0%A6%D0%B2%D0%B5%D1%82%D0%BE%D0%B2)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                                width="100%" height="400" frameborder="0"></iframe></div>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <div class="content justify-content-center">
+                            <a href="#"><img src="photos/inst.png" alt=""></a>
+                            <a href="#"><img src="photos/vk.png" alt=""></a>
+                            <a href="#"><img src="photos/facebook.png" alt=""></a>
+                            <a href="#"><img src="photos/twitter.png" alt=""></a>
+                            <a href="#"><img src="photos/gp.png" alt=""></a>
+                            <h5>+7(999)-99-99</h5>
+                            <h5>+7(999)-99-99</h5>
+                            <h5>mir.cvetov@mail.ru</h5>
+                            <h5>513671, г.Москва, 2-й Лихачевский пер., д.7, строение 12</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </footer>
+    <!-- Кнопка наверх -->
+    <a href="#header">
+        <button id="back-to-top" class="btn btn-secondary" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="" class="bi bi-arrow-up-circle-fill"
+                viewBox="0 0 16 16">
+                <path
+                    d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+            </svg>
+        </button>
+    </a>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js "
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous ">
+        </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script src="index.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

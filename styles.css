@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+body {
+    background-color: #F2D5DD;
+}
+
+#dash-1 {
+    border: 3px solid rgba(0, 0, 0, 0.459);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#dash-2 {
+    border: 3px solid rgba(0, 0, 0, 0.459);
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-family: 'Comfortaa', cursive;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0);
+    font-family: 'Comfortaa', cursive;
+    padding-left: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(95, 95, 95);
+}
+
+.navbar-brand {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+
+#Carousel {
+    background-color: #F2D5DD;
+}
+#Carousel h1{
+    font-family: 'Caveat', cursive;
+    font-size: 100px;
+}
+#Carousel p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+.carousel-item {
+    max-height: 800px;
+}
+
+#products {
+    padding-bottom: 50px;
+}
+
+#products .icon-box {
+    border: 1px solid #afafaf;
+    border-radius: 0%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    transition: all ease-in-out 0.3s;
+    background-color: rgba(255, 255, 255, 0.411);
+    margin-bottom: 20px;
+}
+
+#products .icon-box:hover {
+    border-color: #afafaf;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-10px);
+}
+
+.animate-fade-right {
+    transform: translateX(-100px);
+}
+
+.animate-fade-left {
+    transform: translateX(100px);
+}
+
+.card-text {
+    text-align: center;
+    padding-top: -20px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+
+main {
+    background-image: url(photos/3.1.jpg);
+    background-size: cover;
+}
+
+#delivery {
+    padding-bottom: 200px;
+}
+
+#delivery img {
+    width: 100px;
+    height: 100px;
+}
+
+.content-top {
+    padding-right: 10px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content p {
+    color: rgba(0, 0, 0, 0.603);
+}
+
+#about-us {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+#contacts h5 {
+    font-family: 'Comfortaa', cursive;
+}
+
+#contacts img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+#back-to-top {
+    position: fixed;
+    width: 60px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    display: none;
+    fill: #F2D5DD;
+}
+
+.btn-secondary {
+    background-color: rgb(121, 121, 121);
+}
+
+#bouquets .card {
+    transition: all ease-in-out 0.35s;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+#bouquets .card:hover {
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.5);
+    transition: all ease-in-out 0.35s;
+}
+
+#bouquets .card-title {
+    font-family: 'Comfortaa', cursive;
+    color: rgba(0, 0, 0, 0.705);
+    border: 2px solid rgba(0, 0, 0, 0.459);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#bouquets .card-text {
+    font-family: 'Comfortaa', cursive;
+    color: #000;
+    font-size: 16px;
+    text-align: start;
+}
+
+#bouquets .card-text-price {
+    font-family: 'Comfortaa', cursive;
+    color: #000;
+    font-size: 18px;
+}
+
+#piece .card {
+    transition: all ease-in-out 0.35s;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+#piece .card:hover {
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.5);
+    transition: all ease-in-out 0.35s;
+}
+
+#piece .card-title {
+    font-family: 'Comfortaa', cursive;
+    color: rgba(0, 0, 0, 0.705);
+    border: 2px solid rgba(0, 0, 0, 0.459);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#piece .card-text {
+    font-family: 'Comfortaa', cursive;
+    color: #000;
+    font-size: 16px;
+    text-align: start;
+}
+
+#piece .card-text-price {
+    font-family: 'Comfortaa', cursive;
+    color: #000;
+    font-size: 18px;
+}
+
+#gift .card {
+    transition: all ease-in-out 0.35s;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+#gift .card:hover {
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.5);
+    transition: all ease-in-out 0.35s;
+}
+
+#gift .card-title {
+    font-family: 'Comfortaa', cursive;
+    color: rgba(0, 0, 0, 0.705);
+    border: 2px solid rgba(0, 0, 0, 0.459);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#gift .card-text {
+    font-family: 'Comfortaa', cursive;
+    color: #000;
+    font-size: 16px;
+    text-align: start;
+}
+
+#gift .card-text-price {
+    font-family: 'Comfortaa', cursive;
+    color: #000;
+    font-size: 18px;
+}
+
+#marriage .card {
+    transition: all ease-in-out 0.35s;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+#marriage .card:hover {
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.5);
+    transition: all ease-in-out 0.35s;
+}
+
+#marriage .card-title {
+    font-family: 'Comfortaa', cursive;
+    color: rgba(0, 0, 0, 0.705);
+    border: 2px solid rgba(0, 0, 0, 0.459);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#marriage .card-text {
+    font-family: 'Comfortaa', cursive;
+    color: #000;
+    font-size: 16px;
+    text-align: start;
+}
+
+#marriage .card-text-price {
+    font-family: 'Comfortaa', cursive;
+    color: #000;
+    font-size: 18px;
+}
+
+.modal-title {
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+}
+
+.modal-body {
+    background-image: url(photos/3.2.jpg);
+    background-size: contain;
+    padding-bottom: 10px;
+}
+
+.modal-content {
+    background: rgba(255, 255, 255, 0.918);
+}
